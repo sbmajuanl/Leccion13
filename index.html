@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div ALIGN=center>
+  <h1>Formulario de Datos</h1>
+</div>
+
+  <form action="">
+
+    <div  ALIGN=center>
+    <label for="nombre"><strong>Nombre:</strong></label><br>
+    <input type="text" name="nombre" title="Ingresa tu nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/>
+    </div></br>
+
+    <div  ALIGN=center>
+    <label for="apellidos"><strong>Apellidos:</strong></label><br>
+    <input type="text" name="apellidos" title="Ingresa tu apellido" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,64}" required/>
+    </div></br>
+
+    <div  ALIGN=center>
+    <label for="telefono"><strong>Telefono:</strong></label><br>
+    <input type="number" name="telefono" title="Ingresa tu telefono" pattern="[0-9]{9}" required/>
+    </div></br>
+
+    <div  ALIGN=center>
+    <p><strong>Escoge tu carrito para continuar</strong></p>
+    </div></br>
+
+    <div  ALIGN=center>
+    <SELECT NAME="selCombo" SIZE=1>
+    <OPTION VALUE="">Escoge tu carro</OPTION>
+    <OPTION VALUE="1">volvo</OPTION>
+    <OPTION VALUE="2">Saab</OPTION>
+    <OPTION VALUE="3">Mercedes</OPTION>
+    <OPTION VALUE="4">Audi</OPTION>
+    </SELECT>
+    </div></br>
+
+
+    <div  ALIGN=center>
+    <label for="email"><strong>Email:</strong></label><br>
+    <input type="email" name="email" title="Ingresa tu email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required/>
+    </div></br>
+
+    <div  ALIGN=center>
+    <label for="password"><strong>Password:</strong></label><br>
+    <input type="password" name="password" title="Solo ingresar 6 caracteres" pattern=".{6}"  required/>
+    </div></br>
+
+    <div  ALIGN=center>
+    <button type="submit" name="" value="send">Enviar</button>
+    </div>
+    </form>
+
+</body>
+
+</html>
